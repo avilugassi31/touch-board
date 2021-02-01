@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Board</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init(4)">
+    <h1>Touch Board Game</h1>
+
+    <div class="buttons">
+
+        <h2>Choose Your Level...</h2>
+        <button class="button1" onclick="init(4)">Im A Beginner</button>
+        <button class="button2" onclick="init(5)">I Know What Im Doing</button>
+        <button class="button3" onclick="init(6)">give me Something Difficult</button>
+        <div class="timer">
+            <h3>Your Time</h>
+                <p class="timer-display">00:00</p>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="table">
+
+        <table border="1" cellpading="10">
+            <tbody class="board">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
